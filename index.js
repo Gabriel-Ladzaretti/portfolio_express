@@ -121,6 +121,7 @@ const getDailyReport = () => {
   });
 };
 
+
 setInterval(getDailyReport, HOUR * 24);
 
 // Set router
